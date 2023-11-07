@@ -368,10 +368,11 @@ body {
     overflow: auto;
     display: flex;
     justify-content: space-around;
+   padding: 0;
 }
 
 .bar li {
-    float: left;
+    /* float: left; */
 }
 
 .bar li a {
@@ -449,6 +450,7 @@ body {
     box-shadow: none;
     text-align: center;
     padding: 20px;
+    width: 25%;
 
 }
 
@@ -730,4 +732,60 @@ margin: auto;
 .social p a{
     text-decoration: none;
     color:  #ff305b;
+}
+@media screen and (min-width:576px) {
+    /* --------------------------hero-------------------- */
+    .nav-list{
+        display:none;
+    }
+    /* -----------------------person------------------ */
+    .person{
+        width: 100%;
+    }
+    .about-desc{
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* ---------------------services---------------- */
+    .item {
+        width: 100%;
+    }
+    /* -------------------portfolio-------------- */
+    .bar{
+        width: 100%;
+        
+    }
+    .product{
+        width: 100%;
+    }
+    /* -----------------statistics------------ */
+    .testimonial .item {
+        width: 100%;
+    }
+    /* --------------feedback------------- */
+    .box{
+        width: 90%;
+    }
+    /* ------------blog--------------- */
+    .blog .col{
+        width: 100%;
+    }
+
+    /* -------------contact---------*/
+    .contact .container{
+        width: 90%;
+    }
+    .contact input{
+        width: 100%;
+    }
+
+   /* -----------footer---------- */
+   .social .icons {
+    width: 20%;
+    /* background-color: yellow; */
+   }
+   .name{
+    display: inline-block;
+    width: 100%;
+   }
 }
