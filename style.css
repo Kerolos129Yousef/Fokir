@@ -764,7 +764,7 @@ margin: auto;
     }
     /* --------------feedback------------- */
     .box{
-        width: 90%;
+        width: 100%;
     }
     /* ------------blog--------------- */
     .blog .col{
@@ -773,7 +773,7 @@ margin: auto;
 
     /* -------------contact---------*/
     .contact .container{
-        width: 90%;
+        width:100%;
     }
     .contact input{
         width: 100%;
